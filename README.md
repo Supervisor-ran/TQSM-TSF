@@ -62,3 +62,21 @@ uv run --no-project --env-file .env python -m src.run --x_num_type yelp --x_num_
 ```
 
 These are quick-start commands, not the final hyperparameters for every paper experiment. Run `uv run --no-project python -m src.run --help` for all options.
+
+## Citation
+
+If you use this code or the TQSM-TSF / MMMA-NLinear methods in your research, please cite our paper:
+
+> Ran Liu and Tsunenori Mine. **Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting.** Accepted to WSDM 2027 (Findings).
+
+```bibtex
+@misc{liu2027tqsmtsf,
+  author = {Liu, Ran and Mine, Tsunenori},
+  title  = {Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting},
+  year   = {2027},
+  note   = {Accepted to WSDM 2027 (Findings)},
+  url    = {https://github.com/Supervisor-ran/TQSM-TSF}
+}
+```
+
+The BibTeX entry is provisional and will be updated with the official proceedings metadata once published.
