@@ -1,0 +1,42 @@
+# credentials/local settings
+.env
+.env.*
+!.env.example
+# build artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hf_cache/
+.cache/
+pretrained_models/
+res_models/
+logs/
+checkpoints/
+artifacts/**
+!artifacts/.gitkeep
+# do not publish full datasets by default; review licenses and add approved files separately
+data/**
+!data/.gitkeep
+data_Yelp/**
+!data_Yelp/.gitkeep
+hotelrec_data/**
+!hotelrec_data/.gitkeep
+
+# Local data and generated outputs
+/data/
+/data_Yelp/
+/hotelrec_data/
+/artifacts/
+/pretrained_models/
+/cache/
+/.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.zip
