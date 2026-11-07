@@ -65,18 +65,19 @@ These are quick-start commands, not the final hyperparameters for every paper ex
 
 ## Citation
 
-If you use this code or the TQSM-TSF / MMMA-NLinear methods in your research, please cite our paper:
+If you use this code or the **TQSM-TSF / MMMA-NLinear** methods, please cite:
 
-> Ran Liu and Tsunenori Mine. **Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting.** Accepted to WSDM 2027 (Findings).
+> Ran Liu and Tsunenori Mine. 2027. **Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting.** In *Proceedings of the 20th ACM International Conference on Web Search and Data Mining (WSDM '27)*, **Findings Track**, Hong Kong, China. ACM. (To appear.)
 
 ```bibtex
-@misc{liu2027tqsmtsf,
-  author = {Liu, Ran and Mine, Tsunenori},
-  title  = {Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting},
-  year   = {2027},
-  note   = {Accepted to WSDM 2027 (Findings)},
-  url    = {https://github.com/Supervisor-ran/TQSM-TSF}
+@inproceedings{liu2027qualityaware,
+  author    = {Liu, Ran and Mine, Tsunenori},
+  title     = {Quality-Aware Web Signal Selection and Movement-Aligned Multimodal Learning for Tourism Demand Forecasting},
+  booktitle = {Proceedings of the 20th ACM International Conference on Web Search and Data Mining (WSDM '27)},
+  year      = {2027},
+  publisher = {Association for Computing Machinery},
+  note      = {Findings Track, Hong Kong, China. To appear}
 }
 ```
 
-The BibTeX entry is provisional and will be updated with the official proceedings metadata once published.
+The citation will be updated with the official DOI, page numbers, and final ACM proceedings metadata after publication.
